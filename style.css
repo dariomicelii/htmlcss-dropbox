@@ -72,5 +72,44 @@
     width: 100%;
   }
   .hero-title h1{
-    font-size: 70px;
+    font-size: 60px;
   }
+
+  /* PLANS */
+
+  .plan-section .container{
+    margin-top: 100px;
+  }
+
+  .choises-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 800px;
+  }
+
+  .choice-header{
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .choice-body{
+    width: 300px;
+    padding-top: 20px;
+  }
+
+  .choices-col{
+    border: 1px solid black;
+    background-color: blueviolet;
+  }
+
+  .lineetta{
+    width: 50px;
+    border: 1px solid black;
+  }
+
+  .choice-body ul li{
+    display: block;
+  }
+
