@@ -51,21 +51,17 @@
   }
 
   .hero-section .container{
-    border: 1px solid black;
     padding-top: 100px;
   }
 
   .hero-content{
     display: flex;
-    border: 1px solid black;
   }
 
   .text-col{
-    border: 1px solid black;
   }
 
   .img-col{
-    border: 1px solid black;
   }
 
   .img-col img{
@@ -99,6 +95,7 @@
     padding-top: 20px;
   }
 
+
   .choices-col{
     border: 1px solid black;
     background-color: blueviolet;
@@ -111,5 +108,140 @@
 
   .choice-body ul li{
     display: block;
+  }
+
+  .team-section{
+    margin: 100px 0px;
+  }
+
+  .team-header{
+    border: 1px solid black;
+  }
+
+  .team-body{
+    border: 1px solid black;
+  }
+
+  .partner-section .container{
+    display: flex;
+  }
+
+  .large-col img{
+    width: 100%;
+  }
+
+  .small-col{
+    padding-top: 40px;
+  }
+
+  .operation-section .container{
+    margin-top: 100px;
+  }
+
+  .container-elem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0px;
+
+  }
+
+
+  .operation-body-cont{
+    width: 250px;
+  }
+
+  .operation-body-cont img{
+    width: 100%;
+  }
+
+  .users-section .container{
+    padding: 100px 0px;
+  }
+
+  #brands > .container{
+    display: flex;
+    width: 100%;
+  }
+  
+
+  .brand-col{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+  }
+
+  .row{
+    display: flex;
+    width: calc(100vh / 3);
+    height: calc(100vh / 3);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand-logo{
+    width: 50%;
+    height: 50%;
+  }
+
+
+
+  .debug{
+    background-color: grey;
+    border: 2px dashed black;
+    padding: 10px;
+    min-height: 50px;
+  }
+
+  .free-trial-section .container{
+    display: flex;
+    min-height: 400px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .questions-section .container{
+    padding-bottom: 50px;
+  }
+
+  .question-row{
+    display: flex;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .title{
+    padding-bottom: 70px;
+  }
+
+
+
+  .link-section{
+    min-height: 100px;
+  }
+
+  .link-section .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+
+  .link-col ul li{
+    display: block;
+  }
+
+  .leng-section .container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .leng-square{
+    display: flex;
+    border-top: 1px solid black;
+    padding: 20px 0px;
   }
 
